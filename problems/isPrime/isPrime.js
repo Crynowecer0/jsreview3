@@ -11,6 +11,7 @@ function isPrime(num) {
   if (!num || num === 1) return false;
   if (num === 2) return true;
 
+
   //declare intermediary variable to hold 1/2num + 1 for readibility
   let halfNumPlusOne = num / 2 + 1;
 
