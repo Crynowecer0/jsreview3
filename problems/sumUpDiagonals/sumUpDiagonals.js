@@ -23,16 +23,13 @@ function sumUpDiagonals(matrix) {
 
   //sum left to right
   for (let row = 0; row < matrix.length; row++) {
-    sum += matrix[row][row]
+    sum += matrix[row][row];
   }
 
   //sum right to left
   for (let row = 0; row < matrix.length; row++) {
-    sum += matrix[row][matrix.length-1-row]
+    sum += matrix[row][matrix.length - 1 - row];
   }
-
-
-
 
   return sum;
 }
