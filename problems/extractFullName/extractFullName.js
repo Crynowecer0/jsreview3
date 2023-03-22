@@ -1,4 +1,7 @@
+function extractFullName(people) {
+  const fullNames = people.map((person) => {
+    return `${person.first} ${person.last}`;
+  });
 
-function extractFullName() { 
-  // Add any parameters you need. Good luck!
+  return fullNames;
 }
