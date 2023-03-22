@@ -18,14 +18,12 @@ function zip(...arrays) {
   let index = 0;
 
   while (index < arrays[0].length) {
-let tempArr = []
+    let tempArr = [];
     for (let i = 0; i < arrays.length; i++) {
-      tempArr.push(arrays[i][index])
+      tempArr.push(arrays[i][index]);
     }
-    results.push(tempArr)
-    index++
+    results.push(tempArr);
+    index++;
   }
   return results;
 }
-
-

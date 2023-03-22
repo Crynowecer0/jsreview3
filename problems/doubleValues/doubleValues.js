@@ -1,4 +1,4 @@
 
-function doubleValues() { 
-  // Add any parameters you need. Good luck!
+function doubleValues(nums) {
+  return nums.map(num => num * 2)
 }
