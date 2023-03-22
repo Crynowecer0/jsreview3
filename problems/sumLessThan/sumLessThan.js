@@ -30,3 +30,4 @@ function sumLessThan(nums, maxNum) {
 
   return sum;
 }
+
