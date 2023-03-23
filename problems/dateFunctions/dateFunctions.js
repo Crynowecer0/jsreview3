@@ -1,11 +1,13 @@
 function getToday() {
-  // Add any parameters you need. Good luck!
+  return new Date()
 }
 
 function isWeekend(date) {
-  // Add any parameters you need. Good luck!
+  return (date.getDay() === 0 || date.getDay() === 6)
 }
 
 function getMonthName(date) {
-  // Add any parameters you need. Good luck!
+  const options = { month: "long" }
+  return(new Intl.DateTimeFormat("en-US", options).format(date))
+
 }
